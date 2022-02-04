@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+    // todo Нам дано масив друзів let friends = ["Ivan", "Slavik", "Grisha", "Lera", "Ira"]; Потрібно зробити перевірку
+    //  якщо кількість елементів у масиві більше або дорівнює 3, то виводиться повідомлення про те, що це великий масив,
+    //  в якому  3 і більше елементи. Інакше слід вивести на екран повідомлення про те, що це маленький масив, в якому
+    //  менше 3-х елементів.
+
+    // let friends = ["Ivan", "Slavik", "Grisha", "Lera", "Ira"]
+    // if(friends.length >= 3){
+    //     alert('це великий масив, в якому  3 і більше елементи')
+    // }
+    // else{
+    //     alert('це маленький масив, в якому менше 3-х елементів.')}
+
+    //todo - Маємо 3 числа і між ним  нам потрібно знайти те що посередині. Знайти, яке з них є середнім (більше одного,
+    // але менше за інше). Перевірити, чи знаходиться перше число між двома іншими.
+
+    let a = +prompt('введи число')
+    let b = +prompt('введи число')
+    let c = +prompt('введи число')
+    console.log(a,b,c)
+    if (a<b && b<c){
+        console.log(b)
+    }
+
+    else if (b<a && a<c){
+        console.log(a)
+    }
+
+    else if(b<c && c<a){
+        console.log(c)
+    }
+
+    else{
+        console.log('abrakadabra')
+    }
+
+    //todo Перепишіть конструкцію if з використанням умовного оператора '?':
+                        // let result;
+                        // if (a + b < 4) {
+                        //     result = 'Мало';
+                        // } else {
+                        //     result = 'Багато';
+                        // }
+
+    // let a = +prompt('Введи число')
+    // let b = +prompt('Введи число')
+    // let result = (a + b < 4) ? 'Мало' : 'Багато'
+    // console.log(result)
+
+
+</script>
+
+</body>
+</html>
