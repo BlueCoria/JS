@@ -4,10 +4,9 @@
                                                                         */
 
 let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
-
+document.write(`<ul>`)
     for (let i = 0; i < listOfItems.length; i++) {
         let listOfItemsElement = listOfItems[i]
-        document.write(`<ul>`)
         document.write(`<li>${listOfItemsElement}</li>`)
-        document.write(`</ul>`)
     }
+document.write(`</ul>`)
