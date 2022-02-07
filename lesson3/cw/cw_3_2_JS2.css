@@ -1,0 +1,25 @@
+/* play in template 2.1 & template 2.2 */
+.simpsons-box{
+    display: flex;
+    column-gap: 35px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sp-title > h2{
+    width: 300px;
+}
+
+/* play in template 2.2 */
+
+/*.simpsons-box{*/
+/*    flex-direction: column;*/
+/*}*/
+/*.sp-info{*/
+/*    width: 50%;*/
+/*}*/
+/*.sp-img{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    height: 50%;*/
+/*    width: 50%;*/
+/*}*/

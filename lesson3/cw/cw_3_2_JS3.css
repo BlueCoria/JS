@@ -1,0 +1,16 @@
+
+.product-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product-title{
+    font-size: 32px;
+    text-transform: capitalize;
+}
+.product-image{
+    height: 25%;
+    width: 25%;
+
+}
