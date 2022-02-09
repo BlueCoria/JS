@@ -1,0 +1,19 @@
+.users-box{
+    width: 1084px;
+    display: flex;
+    column-gap: 10px;
+    row-gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.user-block{
+    width: 500px;
+    height: 250px;
+    border: 1px solid;
+    padding: 5px;
+}
+.address-block>p{
+    font-size: 18px;
+    line-height: 15px;
+}
