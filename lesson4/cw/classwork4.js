@@ -126,14 +126,15 @@
 // console.log(a)
 
 //todo Функція приймає масив та робить з нього новий масив в зворотньому порядку. [1,2,3] -> [3, 2, 1].
-let numArr= [48, 79, 6, 72, 74, 69, 17, 45, 100, 62];
-let arr = []
-function arrRevers (array){
-    for (let i = array.length - 1; i >= 0; i--) {
-        arr.push(array[i])
-    }
-}
-arrRevers(numArr)
-console.log(arr)
+
+// let numArr= [48, 79, 6, 72, 74, 69, 17, 45, 100, 62];
+// let arr = []
+// function arrRevers (array){
+//     for (let i = array.length - 1; i >= 0; i--) {
+//         arr.push(array[i])
+//     }
+// }
+// arrRevers(numArr)
+// console.log(arr)
 
 
